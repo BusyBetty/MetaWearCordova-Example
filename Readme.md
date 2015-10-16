@@ -12,3 +12,4 @@ Steps to Set up your environment:
 Current state piece of the example:
       1.  Scaffoling
       2.  Connecting to your board
+      3.  Reading the RSSI value

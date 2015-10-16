@@ -76,10 +76,15 @@
              console.log("Error : " + result);
              alert("Error: " + result);
          }
+         var successCallback = function(result){
+             $("#rssi").text(result);
+         } 
         </script> 
 
         <h2><div id="connection_status">Disconnected</div></h2>
         <button id="connect_disconnect" onClick="initializeConnect()">Connect</button>
+        <h3><div id="rssi"></div></h3>
+        <button id="get_rssi" onClick="metawear.mwdevice.readRssi(successCallback, errorCallback)">GetRssi</button>
       
     </body>
 </html>
