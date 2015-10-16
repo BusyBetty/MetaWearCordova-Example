@@ -15,3 +15,4 @@ Current functions in the example:
       3.  Reading the RSSI value
       4.  Start Accelerometer
       5.  Stop Accelerometer
+      6.  Disconnect
