@@ -79,12 +79,17 @@
          var successCallback = function(result){
              $("#rssi").text(result);
          } 
+         var accelerometerCallback = function(result){
+             var results = "x: " + result.x + " y: " + result.y + " z: " + result.z;
+             $("#accelerometer").text(results);
+         }
         </script> 
 
         <h2><div id="connection_status">Disconnected</div></h2>
         <button id="connect_disconnect" onClick="initializeConnect()">Connect</button>
         <h3><div id="rssi"></div></h3>
         <button id="get_rssi" onClick="metawear.mwdevice.readRssi(successCallback, errorCallback)">GetRssi</button>
-      
+        <h3><div id="accelerometer"></div></h3>      
+        <button id="accelerometer_button" onClick="metawear.mwdevice.startAccelerometer(accelerometerCallback, errorCallback)">Start Accelerometer</button>
     </body>
 </html>

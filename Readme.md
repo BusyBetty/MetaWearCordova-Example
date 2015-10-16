@@ -9,7 +9,8 @@ Steps to Set up your environment:
       3.  make sure your ANDROID_HOME is pointing to your android sdk.
       4.  cordova run android
 
-Current state piece of the example:
+Current functions in the example:
       1.  Scaffoling
       2.  Connecting to your board
       3.  Reading the RSSI value
+      4.  Start Accelerometer
