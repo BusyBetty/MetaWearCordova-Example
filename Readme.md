@@ -1,0 +1,13 @@
+Example Metawear Cordova Application
+====================================
+
+This is an example application to that guides you through the basic scaffolding of your application,  connecting to your board and finally interacting with it's sensors.  This example has only been tested on Android,  depending on the state of the IOS implementation it may or may not run there.
+
+Steps to Set up your environment:
+      1.  cordova plugin add https://github.com/polyglotprogramminginc/cordova-plugin-metawear
+      2.  cordova platform add android
+      3.  make sure your ANDROID_HOME is pointing to your android sdk.
+      4.  cordova run android
+
+Current state piece of the example:
+      1.  Scaffoling
